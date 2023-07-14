@@ -1,0 +1,8 @@
+string Familia = "Егор";
+string Name = "Близоруков";
+
+string Name1 = Familia;
+string Familia1 = Name;
+
+Console.WriteLine($"До перестановки - {Familia} {Name}, после - {Familia1} {Name1}");
+Console.ReadKey();
